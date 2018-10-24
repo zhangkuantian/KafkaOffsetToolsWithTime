@@ -5,12 +5,14 @@
 sh getOffset.sh -gid <group.id> -server <bootstrap.server> -stime <starttime> -topic <topic>
 ```
 参数说明:
+
 参数名|含义
 ---|---
 gid|kafka的group.id
 server|kafka的bootstrap.server
 stime|开始时间
 topic|topic名称
+
 getOffset.sh的内容:
 ```
 #!/bin/base
@@ -23,12 +25,14 @@ java -cp ./olap_activity-1.0-SNAPSHOT-jar-with-dependencies.jar com.lucas_hust.k
 sh loadDataFromTime.sh -gid <group.id> -server <bootstrap.server> -stime <starttime> -topic <topic>
 ```
 参数说明:
+
 参数名|含义
 ---|---
 gid|kafka的group.id
 server|kafka的bootstrap.server
 stime|开始时间
 topic|topic名称
+
 loadDataFromTime.sh 的内容:
 ```
 #!/bin/base
@@ -41,6 +45,7 @@ java -cp ./olap_activity-1.0-SNAPSHOT-jar-with-dependencies.jar com.lucas_hust.k
 sh loadDataFromTime.sh -gid <group.id> -server <bootstrap.server> -stime <starttime> -topic <topic> -etime <endtime>
 ```
 参数说明:
+
 参数名|含义
 ---|---
 gid|kafka的group.id
@@ -48,6 +53,7 @@ server|kafka的bootstrap.server
 stime|开始时间
 topic|topic名称
 etime|结束时间
+
 loadDataBetweenTime.sh的内容:
 ```
 #!/bin/base
