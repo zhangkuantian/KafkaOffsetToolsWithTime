@@ -1,4 +1,17 @@
 # KafkaOffsetToolsWithTime通过时间获取Kafka topic的offset
+<div align="center">
+  <p>
+    <a href="https://github.com/zhangkuantian/KafkaOffsetToolsWithTime">
+        <img alt="stars" src="https://img.shields.io/github/stars/zhangkuantian/KafkaOffsetToolsWithTime?style=social" />
+    </a>
+    <a href="https://github.com/zhangkuantian/KafkaOffsetToolsWithTime">
+        <img alt="forks" src="https://img.shields.io/github/forks/zhangkuantian/KafkaOffsetToolsWithTime?style=social" />
+    </a>
+  </p>
+</div>
+
+[![Star History Chart](https://api.star-history.com/svg?repos=zhangkuantian/KafkaOffsetToolsWithTime)](https://star-history.com/#zhangkuantian/KafkaOffsetToolsWithTime)
+
 ### 1、获取指定时间戳的Offset
 执行命令格式如下:
 
