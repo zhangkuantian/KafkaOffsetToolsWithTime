@@ -31,7 +31,7 @@ topic|topic名称
 getOffset.sh的内容:
 
 ```
-#!/bin/base
+#!/bin/bash
 java -cp ./olap_activity-1.0-SNAPSHOT-jar-with-dependencies.jar com.lucas_hust.kafka.tools.LoadOffsetWithTime $1 $2 $3 $4 $5 $6 $7 $8
 ```
 
@@ -54,7 +54,7 @@ topic|topic名称
 loadDataFromTime.sh 的内容:
 
 ```
-#!/bin/base
+#!/bin/bash
 java -cp ./olap_activity-1.0-SNAPSHOT-jar-with-dependencies.jar com.lucas_hust.kafka.tools.ConsumerKafkaFromTime $1 $2 $3 $4 $5 $6 $7 $8
 ```
 
@@ -79,7 +79,7 @@ etime|结束时间
 loadDataBetweenTime.sh的内容:
 
 ```
-#!/bin/base
+#!/bin/bash
 java -cp ./olap_activity-1.0-SNAPSHOT-jar-with-dependencies.jar com.lucas_hust.kafka.tools.ConsumerKafkaBetweenTime $1 $2 $3 $4 $5 $6 $7 $8 $9 ${10}
 ```
 
